@@ -7,7 +7,7 @@
 		<link rel="icon" type="image/png" href="./assets/favicon-32x32.png" />
 		<title>Manage by Superior Software Solutions</title>
 	</head>
-	<body class="font-ubuntu antialiased">
+	<body>
 		<!-- navigation bar start -->
 		<nav class="container relative mx-auto p-6">
 			<!-- flex container start -->
@@ -34,11 +34,28 @@
 				<!-- button section end -->
 
 				<!-- hamburger menu start -->
+				<button id="menu-btn" class="hamburger block focus:outline-none md:hidden">
+					<span class="hamburger-top"></span>
+					<span class="hamburger-middle"></span>
+					<span class="hamburger-bottom"></span>
+				</button>
 				<!-- hamburger menu end -->
 			</div>
 			<!-- flex container end -->
 
 			<!-- mobile menu start -->
+			<div class="md:hidden">
+				<div
+					id="menu"
+					class="absolute left-6 right-6 mt-10 hidden flex-col items-center space-y-6 self-end rounded-3xl bg-white py-8 text-2xl font-bold drop-shadow-md sm:w-auto sm:self-center"
+				>
+					<a href="#">Pricing</a>
+					<a href="#">Product</a>
+					<a href="#">About Us</a>
+					<a href="#">Careers</a>
+					<a href="#">Community</a>
+				</div>
+			</div>
 			<!-- mobile menu end -->
 		</nav>
 		<!-- navigation bar end -->
@@ -242,7 +259,7 @@
 
 					<!-- logo start -->
 					<div>
-						<img src="./assets/logo-white.svg" class="h-8" alt="Logo" />
+						<img src="./assets/logo-white.svg" class="h-6" alt="Logo" />
 					</div>
 					<!-- logo end -->
 
@@ -298,7 +315,7 @@
 				</div>
 				<!-- list container end -->
 
-				<!-- Input Container -->
+				<!-- input container start -->
 				<div class="flex flex-col justify-between">
 					<form>
 						<div class="flex space-x-3">
@@ -308,6 +325,7 @@
 					</form>
 					<div class="hidden text-white md:block">Copyright &copy; 2022, Superior Software Solutions</div>
 				</div>
+				<!-- input container end -->
 			</div>
 			<!-- flex container end -->
 		</footer>
