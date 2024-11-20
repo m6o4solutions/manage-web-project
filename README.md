@@ -1,4 +1,4 @@
-# Manage Websites
+# Manage Web Project
 
 ## Summary
 
@@ -17,7 +17,7 @@ Using the following steps, you can run the project on your local computer.
 1. Clone the repository to a folder on your local computer using this command
 
 ```
-git clone https://github.com/theSavannahDev/manage-landing-page
+git clone {project-github-url}
 ```
 
 2. Run Yarn to setup the project dependencies
