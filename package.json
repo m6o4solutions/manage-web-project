@@ -1,20 +1,19 @@
 {
-  "name": "manage-website",
-  "private": true,
-  "version": "1.0.2",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
-  "devDependencies": {
-    "autoprefixer": "^10.4.17",
-    "postcss": "^8.4.33",
-    "prettier": "^3.2.4",
-    "prettier-plugin-tailwindcss": "^0.5.11",
-    "tailwindcss": "^3.4.1",
-    "vite": "^5.0.12"
-  },
-  "packageManager": "pnpm@9.13.2+sha512.88c9c3864450350e65a33587ab801acf946d7c814ed1134da4a924f6df5a2120fd36b46aab68f7cd1d413149112d53c7db3a4136624cfd00ff1846a0c6cef48a"
+	"name": "manage-website",
+	"private": true,
+	"version": "1.0.2",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview"
+	},
+	"devDependencies": {
+		"autoprefixer": "^10.4.20",
+		"postcss": "^8.5.2",
+		"prettier": "^3.5.0",
+		"prettier-plugin-tailwindcss": "^0.5.14",
+		"tailwindcss": "^3.4.17",
+		"vite": "^5.4.14"
+	}
 }
