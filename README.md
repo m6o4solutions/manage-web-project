@@ -9,6 +9,7 @@ Sample project to help getting started with Tailwind CSS.
 1. HTML
 2. Tailwind
 3. ViteJS
+4. Firebase Hosting
 
 ## Using The Repository
 
