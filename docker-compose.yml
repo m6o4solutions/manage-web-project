@@ -1,0 +1,18 @@
+services:
+  manage:
+      image: ghcr.io/m6o4solutions/manage-web-project:latest
+      container_name: manage
+      restart: unless-stopped
+      networks:
+        - traefik-network
+      labels:
+        - "traefik.enable=true"
+        - "traefik.http.routers.manage.rule=Host(`manage.m6o4solutions.com`)"
+        - "traefik.http.routers.manage.entrypoints=websecure"
+        - "traefik.http.routers.manage.tls.certresolver=letsencrypt"
+        - "traefik.http.services.manage.loadbalancer.server.port=80"
+
+networks:
+  traefik-network:
+    external: true
+    name: traefik-network
